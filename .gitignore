@@ -1,0 +1,11 @@
+
+
+.tscache/*
+.vscode/*
+build/*
+dist/*
+node_modules/*
+
+# Grunt stuff
+tasks/*
+Gruntfile.js

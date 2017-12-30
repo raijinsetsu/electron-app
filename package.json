@@ -1,0 +1,23 @@
+{
+    "name": "first-electron-app",
+    "version": "1.0.0",
+    "main": "main.js",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/grunt": "^0.4.22",
+        "asar": "^0.14.0",
+        "electron": "^1.7.10",
+        "grunt": "^1.0.1",
+        "grunt-contrib-clean": "^1.1.0",
+        "grunt-ts": "^6.0.0-beta.17",
+        "grunt-tslint": "^5.0.1",
+        "tslint": "^5.8.0",
+        "typescript": "~2.6.2"
+    },
+    "scripts": {
+        "install": "yarn run bootstrap",
+        "prepublish": "yarn run build",
+        "bootstrap": "tsc -p grunt",
+        "build": "grunt build"
+    }
+}
