@@ -9,6 +9,7 @@
         "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
-        "grunt/**/*.js": true
+        "grunt/**/*.js": true,
+        ".tscache/**/*": true
     }
 }
