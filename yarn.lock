@@ -786,6 +786,10 @@ grunt-legacy-util@~1.0.0:
     underscore.string "~3.2.3"
     which "~1.2.1"
 
+grunt-retro@~0.6.0:
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/grunt-retro/-/grunt-retro-0.6.4.tgz#f26a848f6a4797a5ff7e850e60220c0de6be8e72"
+
 grunt-ts@^6.0.0-beta.17:
   version "6.0.0-beta.17"
   resolved "https://registry.yarnpkg.com/grunt-ts/-/grunt-ts-6.0.0-beta.17.tgz#2058cc93b08513216dc46c853762dc1e2a759175"
@@ -805,6 +809,13 @@ grunt-ts@^6.0.0-beta.17:
 grunt-tslint@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/grunt-tslint/-/grunt-tslint-5.0.1.tgz#7432bd1bd56e8a3a25000088d5c61fdcc342f0c2"
+
+grunt-zip@^0.17.1:
+  version "0.17.1"
+  resolved "https://registry.yarnpkg.com/grunt-zip/-/grunt-zip-0.17.1.tgz#218afa37351c46f79b9fb1d6a2fc3c84519a52d0"
+  dependencies:
+    grunt-retro "~0.6.0"
+    jszip "~2.5.0"
 
 grunt@^1.0.1:
   version "1.0.1"
@@ -1104,6 +1115,12 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
+jszip@~2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/jszip/-/jszip-2.5.0.tgz#7444fd8551ddf3e5da7198fea0c91bc8308cc274"
+  dependencies:
+    pako "~0.2.5"
+
 kind-of@^3.0.2:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-3.2.2.tgz#31ea21a734bab9bbb0f32466d893aea51e4a3c64"
@@ -1362,6 +1379,10 @@ osenv@^0.1.4:
   dependencies:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.0"
+
+pako@~0.2.5:
+  version "0.2.9"
+  resolved "https://registry.yarnpkg.com/pako/-/pako-0.2.9.tgz#f3f7522f4ef782348da8161bad9ecfd51bf83a75"
 
 parse-glob@^3.0.4:
   version "3.0.4"

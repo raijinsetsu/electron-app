@@ -9,7 +9,7 @@
         "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
-        "grunt/**/*.js": true,
-        ".tscache/**/*": true
+        ".tscache/**/*": true,
+        "tasks/**/*": true
     }
 }
